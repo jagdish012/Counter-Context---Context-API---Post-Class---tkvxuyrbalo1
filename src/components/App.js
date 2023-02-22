@@ -4,13 +4,18 @@ import '../styles/App.css';
 import { CounterList } from './CounterList';
 const App = () => {
 
+  
+
   return (
     <CounterStateContext>
-      <div id="main">
+    <div id="main">
+   
+     
         <CounterList />
-      </div>
+     
+  
+    </div>
     </CounterStateContext>
-
   )
 }
 

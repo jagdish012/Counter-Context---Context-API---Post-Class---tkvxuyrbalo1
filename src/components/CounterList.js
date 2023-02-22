@@ -12,9 +12,9 @@ export const CounterList = () =>{
 
     return(
         <ol>
-            <li><Counter key={1} id="1" value={count} onClick={onClick}/></li>
-            <li><Counter key={2} id="2" value={count} onClick={onClick}/></li>
-            <li><Counter key={3} id="3" value={count} onClick={onClick}/></li>
+            <li><Counter key={1} id="1" value={count} onClick={onClick}/>Inc1</li>
+            <li><Counter key={2} id="2" value={count} onClick={onClick}/>Inc2</li>
+            <li><Counter key={3} id="3" value={count} onClick={onClick}/>Inc3</li>
         </ol>
     )
 }
